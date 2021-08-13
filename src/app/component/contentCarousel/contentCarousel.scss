@@ -1,0 +1,22 @@
+@import '../../../assets/css/variabels';
+
+.carousel {
+    .carousel-inner {
+        border-radius: 25px;
+        max-height: 360px;
+    }
+    .carousel-item {
+        padding: 0 20px;
+    }
+    .carousel-image{
+        width: 100%;
+        display: block;
+        max-height: 360px;
+        background-size: cover;
+        border-radius: 25px;
+    }
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.671);
+        border-radius: 25px;
+    }
+}

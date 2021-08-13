@@ -1,0 +1,65 @@
+@import "variabels";
+
+a {text-decoration: none}
+
+body {
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.base{
+    font-family: $primaryFont
+}
+
+.b-400 {
+    font-weight: 400;
+}
+
+.b-600 {
+    font-weight: 600;
+}
+
+.b-700 {
+    font-weight: 700;
+}
+
+.b-800 {
+    font-weight: 800;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-25{
+    font-size: 25px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-35{
+    font-size: 35px;
+}
+
+.f-50{
+    font-size: 50px;
+}
+
+.u-mx-6 {
+    margin: 0 6rem!important;
+}
+

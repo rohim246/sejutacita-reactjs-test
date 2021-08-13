@@ -1,0 +1,30 @@
+@import '../../../assets/css/variabels';
+
+.header {
+    font-family: $primaryFont;
+    
+    .header-article {
+        .for-article {
+            color: white;
+            background-color: $primaryColor;
+            padding: 8px 30px;
+            border-radius: 5px;
+        }
+    }
+    .bookmark-all {
+        
+        .btn-bookmark {
+            color: white;
+            background-color: $primaryColor;
+            &:hover {
+                background-color: $secondColor;
+            }
+            .icon-bookmark {
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                
+            }
+        }
+    }
+}

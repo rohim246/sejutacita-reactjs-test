@@ -1,0 +1,46 @@
+@import '../../../assets/css/variabels';
+
+.container-navbar {
+    font-family: $primaryFont;
+
+    .title:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.767);
+        width: 30px;
+        margin: auto;
+        margin-bottom: -1px;
+    }
+
+    .dropdown-menu {
+        width: 500px;
+        right: 1%;
+
+        .dropdown-item {
+            display: inline;
+            width: auto;
+            font-weight: 800;
+            font-size: 14px;
+            &:hover {
+                color: white !important;
+                background-color: $secondColor;
+                border-radius: 20%;
+            }
+            &:active {
+                background-color: $secondColor;
+                border-radius: 20%;
+            }
+        }
+    }
+    .dropdown{
+        .show {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .nav-link:hover {
+        color: white !important;
+        background-color: $secondColor;
+        border-radius: 20%;
+    }
+}
